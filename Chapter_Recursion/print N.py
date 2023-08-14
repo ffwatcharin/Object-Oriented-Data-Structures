@@ -12,11 +12,14 @@ def printNto1(n):
         print(n, end=' ')
         printNto1(n - 1)
 
+def main():
+    n = int(input("Enter Input : "))
 
-n = int(input("Enter Input : "))
+    if n > 0 :
+        print1ToN(n)
+        printNto1(n)
+    else:
+        print('1 1')
 
-if n > 0 :
-    print1ToN(n)
-    printNto1(n)
-else:
-    print('1 1')
+if __name__ == "__main__":
+    main()
