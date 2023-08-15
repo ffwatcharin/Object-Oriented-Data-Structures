@@ -1,3 +1,5 @@
+# เขียนภาษา Python เพื่อวาดรูปหยิน-หยาง ซึ่งจะรับ input เป็นขนาดของรูปหยิน-หยาง
+
 size = int(input('Enter Input : '))
 
 length = size * 2 + 4

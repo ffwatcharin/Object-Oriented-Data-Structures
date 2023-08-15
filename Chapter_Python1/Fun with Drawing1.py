@@ -1,3 +1,5 @@
+# เขียนภาษา Python เพื่อวาดพีระมิด ซึ่งจะรับ input เป็นขนาดของพีระมิด โดย input จะมีค่าตั้งแต่ 2 ขึ้นไป
+
 def draw_pyramid(size):
     size = (size-1)*2+1
     for col in range(size):
