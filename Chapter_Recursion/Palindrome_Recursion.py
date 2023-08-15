@@ -1,3 +1,9 @@
+# Palindrome
+# ****** ห้ามใช้ For , While  ( ให้ฝึกเอาไว้ เนื่องจากถ้าเจอตอนสอบจะได้ 0 )
+
+# เขียน Recursive เพื่อหาว่า String ที่รับเข้ามาเป็น Palindrome หรือไม่
+
+
 # def ispalindrome(word):
 #     return word == word[::-1]
 
