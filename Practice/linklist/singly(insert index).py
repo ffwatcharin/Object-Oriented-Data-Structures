@@ -23,7 +23,7 @@ class LinkedList:
             elif p.data != None:
                 result += str(p.data)
                 if i < self.Size():
-                    result += '->'
+                    result += ' -> '
             p = p.next
             i += 1
         return result

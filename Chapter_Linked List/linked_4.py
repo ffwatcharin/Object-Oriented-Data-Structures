@@ -11,16 +11,6 @@ class LinkedList():
         self.count_loop = 0
 
     def append(self, item):
-        # cur_node = Node(item)
-        # if self.head == None:
-        #     self.head = cur_node
-        # else:
-        #     t = self.head
-        #     while t.next != None:
-        #         t = t.next
-        #     t.next = cur_node
-        # self._size += 1
-
         if self.isEmpty():
             self.head = Node(item)
             self._size += 1
@@ -64,8 +54,6 @@ class LinkedList():
                 if i < ind2:
                     pre = pre.next
                 cur_node = cur_node.next
-                #     cur_node = cur_node.next
-                # pre = pre.next
                 i += 1
             cur_node.next = pre
             return f'Set node.next complete!, index:value = {ind1}:{cur_node.data} -> {ind2}:{pre.data}'
